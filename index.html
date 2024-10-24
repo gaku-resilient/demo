@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Pop Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Balloon Pop Game</h1>
+    <div id="gameContainer"></div>
+    <div id="scoreBoard">
+        <span>Score: <span id="score">0</span></span>
+        <span>High Score: <span id="highScore">0</span></span>
+        <button id="reset">Reset Game</button>
+    </div>
+
+    <!-- Game Over Modal -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2>Game Over</h2>
+            <p>Your Score: <span id="finalScore">0</span></p>
+            <p>Highest Score: <span id="finalHighScore">0</span></p>
+            <button id="playAgain">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
